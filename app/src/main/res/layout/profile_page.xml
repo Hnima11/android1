@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:text="لیست ها"
+        android:layout_gravity="top"
+
+        android:textSize="20sp"
+
+        android:textColor="#FFFFFF"
+        android:background="@drawable/rounded_background" />
+
+
+    <TextView
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="top"
+        android:gravity="center"
+        android:layout_marginTop="72dp"
+        android:text="نقد و نظرات"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/rounded_background" />
+
+
+    <TextView
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="top"
+        android:layout_marginTop="144dp"
+        android:gravity="center"
+        android:text="آدرس ها"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/rounded_background"" />
+
+
+    <TextView
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="top"
+        android:layout_marginTop="216dp"
+        android:gravity="center"
+        android:text="کارت های هدیه"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/rounded_background" />
+
+
+    <TextView
+        android:id="@+id/view5"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="top"
+        android:layout_marginTop="288dp"
+        android:gravity="center"
+        android:text="فعال سازی مگنت"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/rounded_background" />
+
+
+    <TextView
+        android:id="@+id/view6"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="top"
+        android:layout_marginTop="360dp"
+        android:gravity="center"
+        android:text="اطلاعات حساب کاربری"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/rounded_background" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="297dp"
+        android:layout_gravity="bottom"
+        android:scaleType="centerCrop"
+
+        android:src="@drawable/image" />
+
+</FrameLayout>
